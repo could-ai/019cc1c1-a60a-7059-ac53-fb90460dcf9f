@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import '../models/inspection_model.dart';
-import 'package:intl/intl.dart'; // We'll handle date formatting manually if intl isn't added, but standard DateTime is fine for now.
 
 class InspectionReportScreen extends StatelessWidget {
   final InspectionReport report;
